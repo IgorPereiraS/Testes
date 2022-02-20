@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container-top{
+    background-color:rgb(0, 0, 0);
+    height: 30px;
+}
+.header-left{
+    display: flex;
+    margin-left: 10%;
+}
+.fa{
+    width: 40px;
+    height: 30px;
+}
+.icon{
+    margin-top: 5px;
+    margin-left: calc(50% - 20px / 2);
+    width: 20px;
+    height: 20px;
+}
+.fa-face:hover{
+    background-color: rgb(59, 89, 152);
+    opacity: 1.2;
+}
+.fa-insta:hover{
+    background-color: rgb(245, 133, 41);
+    opacity: 1.2;
+}
+.fa-twitter:hover{
+    background-color: rgb(8, 160, 233);
+    opacity: 1.2;
+}
+.fa-youtube:hover{
+    background-color: rgb(230, 33, 23);
+    opacity: 1.2;
+}
