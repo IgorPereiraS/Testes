@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#txt-style{
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-left: -150px;
+    padding: 10px;
+    top: 10px;
+    left: 50%;
+    width: 300px;
+}
+#txt-btn{
+}
+#more{
+    display: none;
+}
+h1{
+    font-size: 12pt;
+}
+#actbtn{
+    position: relative;
+    margin-top: calc(10px + 20px / 2);
+    left: calc(50% - 100px / 2);
+    width: 100px;
+    height: 20px;
+}
