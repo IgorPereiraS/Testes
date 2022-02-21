@@ -68,3 +68,26 @@
     margin-top: 19px;
     font-size: 50px;
 }
+.nav-back{  
+    display: flex;
+    background-color: black;
+    height: 30px;
+    justify-content: center;
+}
+.nav-bar{
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    width: 25%;
+
+}
+.fa-nav-bar:hover{
+    background-color: rgb(37, 37, 37);
+    opacity: 1.2;
+}
+.nav-txt{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+
+}
