@@ -45,6 +45,8 @@
 }
 .logo-img{
     position: absolute;
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
     margin-top: 125px;
     margin-left: calc(20% - 150px / 2);
     width: 150px;
@@ -91,4 +93,41 @@
     text-align: center;
     font-weight: bolder;
 
+}
+.container-content{
+    background-color: black;
+    margin-top: 10px;
+    width: 1200px;
+    height: 800px;
+}
+.container-middle{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    padding-bottom:80px;
+    
+
+}
+.ad-space-left{
+    background-color: green;
+    margin: 10px 50px 0px 0px;
+    width: 230px;
+    height: 800px;
+}
+.ad-space-right{
+    background-color: green;
+    margin: 10px 0px 0px 50px;
+    width: 230px;
+    height: 800px;
+}
+.container-bottom{
+    width:100%;
+    height:80px;
+    display: flex;
+    position:absolute;
+    background-color: aqua;
+  
+}
+.fa-nav-bar:hover:active{
+    background-color: blue;
 }
