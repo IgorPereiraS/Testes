@@ -73,7 +73,8 @@
 .nav-back{  
     display: flex;
     background-color: black;
-    height: 30px;
+    border-top: solid 3px orangered;
+    /* height: auto; */
     justify-content: center;
 }
 .nav-bar{
@@ -95,39 +96,53 @@
 
 }
 .container-content{
-    background-color: black;
-    margin-top: 10px;
-    width: 1200px;
-    height: 800px;
+    padding: 10px;
+    height: auto   ;
+
 }
 .container-middle{
+    background-color: white;
     display: flex;
     justify-content: center;
-    padding:10px;
-    padding-bottom:80px;
-    
+    padding: 10px;
 
 }
 .ad-space-left{
-    background-color: green;
-    margin: 10px 50px 0px 0px;
+    padding: 10px;    
+    margin-right: 10px;    
     width: 230px;
-    height: 800px;
 }
 .ad-space-right{
-    background-color: green;
-    margin: 10px 0px 0px 50px;
+    padding: 10px;    
+    margin-left: 10px;
     width: 230px;
-    height: 800px;
 }
 .container-bottom{
-    width:100%;
+    background-color: black;
+    width:auto;
     height:80px;
-    display: flex;
-    position:absolute;
-    background-color: aqua;
-  
+    bottom: 0;
+    z-index: -9999999;
+    position:relative;
 }
 .fa-nav-bar:hover:active{
-    background-color: blue;
+    background-color: rgb(134, 134, 134);
+}
+.btb{
+    border-top: solid;
+    border-width: 1px;
+}
+.bb{
+    border: solid;
+    border-width: 1px;
+}
+.title-content{
+    padding: 5px;
+    font-size: 24pt;
+    border: ;
+    border-bottom: solid 3px orange;
+}
+.content-body{
+    padding: 10px;
+    font-size: 14pt;
 }
