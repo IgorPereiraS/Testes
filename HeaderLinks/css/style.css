@@ -2,147 +2,111 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-}
+    font-family: sans-serif;}
 .container-top{
     background-color:rgb(0, 0, 0);
-    height: 30px;
-}
+    height: 30px;}
 .header-left{
     display: flex;
-    margin-left: 10%;
-}
+    margin-left: 10%;}
 .fa{
     width: 40px;
-    height: 30px;
-}
+    height: 30px;}
 .icon{
     margin-top: 5px;
     margin-left: calc(50% - 20px / 2);
     width: 20px;
-    height: 20px;
-}
+    height: 20px;}
 .fa-face:hover{
     background-color: rgb(59, 89, 152);
-    opacity: 1.2;
-}
+    opacity: 1.2;}
 .fa-insta:hover{
     background-color: rgb(245, 133, 41);
-    opacity: 1.2;
-}
+    opacity: 1.2;}
 .fa-twitter:hover{
     background-color: rgb(8, 160, 233);
-    opacity: 1.2;
-}
+    opacity: 1.2;}
 .fa-youtube:hover{
     background-color: rgb(230, 33, 23);
-    opacity: 1.2;
-}
+    opacity: 1.2;}
 .container-header{
     display: flex;
     background-color: yellow;
-    height: 350px;
-}
-.logo-img{
-    position: absolute;
-    display: inline-block; /* change the default display type to inline-block */
-    overflow: hidden;      /* hide the overflow */
-    margin-top: 125px;
-    margin-left: calc(20% - 150px / 2);
-    width: 150px;
-    height: 100px;
-}
-.logo-bubble{
-    position: absolute;
-    background-color: white;
-    margin-top: 125px;
-    margin-left: calc(30% - 150px / 2);
-    border-style: solid;
-    border-width: 2.5px;
-    border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: auto;
-    height: 100px;
-}
-.logo-name{
-    text-align: center;
-    margin-top: 19px;
-    font-size: 50px;
-}
+    height: 350px;}
 .nav-back{  
     display: flex;
     background-color: black;
     border-top: solid 3px orangered;
-    /* height: auto; */
-    justify-content: center;
-}
+    justify-content: center;}
+.logo{
+    position: relative;
+    display: flex;
+    top: calc(50% - 150px / 2);
+    left: 25%;
+    width: auto;
+    height: 150px;}
+.logo-img{
+    padding: 5px;
+    height: 150px;
+    width: 200px;}
+.logo-txt{
+    font-size: 50pt;}
+.logo-bubble{
+    position: relative;
+    text-align: center;
+    background-color: white;
+    padding: 25pt 10px 0px 10px;
+    border-radius: 30px;
+    top: calc(50% / 150 / 2);
+    height: 150px;}
 .nav-bar{
     padding-top: 5px;
     text-align: center;
     text-decoration: none;
     height: 30px;
-    width: 25%;
-
-}
+    width: 25%;}
 .fa-nav-bar:hover{
     background-color: rgb(37, 37, 37);
-    opacity: 1.2;
-}
+    opacity: 1.2;}
 .nav-txt{
     color: white;
     text-align: center;
-    font-weight: bolder;
-
-}
+    font-weight: bolder;}
 .container-content{
     padding: 10px;
-    height: auto   ;
-
-}
+    max-width: 70%;
+    height: auto;}
 .container-middle{
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 10px;
-
-}
+    padding: 10px;}
 .ad-space-left{
     padding: 10px;    
     margin-right: 10px;    
-    width: 230px;
-}
+    width: 230px;}
 .ad-space-right{
     padding: 10px;    
     margin-left: 10px;
-    width: 230px;
-}
+    width: 230px;}
 .container-bottom{
     background-color: black;
     width:auto;
-    height:80px;
-    bottom: 0;
-    z-index: -9999999;
-    position:relative;
-}
+    height: 50px;
+    position:static;}
 .fa-nav-bar:hover:active{
-    background-color: rgb(134, 134, 134);
-}
+    background-color: rgb(134, 134, 134);}
 .btb{
     border-top: solid;
-    border-width: 1px;
-}
+    border-width: 1px;}
 .bb{
     border: solid;
-    border-width: 1px;
-}
+    border-width: 1px;}
 .title-content{
     padding: 5px;
     font-size: 24pt;
     border: ;
-    border-bottom: solid 3px orange;
-}
+    border-bottom: solid 3px orange;}
 .content-body{
     padding: 10px;
-    font-size: 14pt;
-}
+    font-size: 14pt;}
